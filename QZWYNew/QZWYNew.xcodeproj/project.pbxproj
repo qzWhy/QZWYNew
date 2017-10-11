@@ -10,10 +10,19 @@
 		125E3615767B1B819F24F001 /* libPods-QZWYNew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E78ED4156DEFF54DAC2E3C /* libPods-QZWYNew.a */; };
 		26D31C5C1F8DE861001C4C66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C5B1F8DE861001C4C66 /* main.m */; };
 		26D31C5F1F8DE861001C4C66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C5E1F8DE861001C4C66 /* AppDelegate.m */; };
-		26D31C621F8DE861001C4C66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C611F8DE861001C4C66 /* ViewController.m */; };
 		26D31C651F8DE861001C4C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D31C631F8DE861001C4C66 /* Main.storyboard */; };
 		26D31C671F8DE861001C4C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D31C661F8DE861001C4C66 /* Assets.xcassets */; };
 		26D31C6A1F8DE861001C4C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D31C681F8DE861001C4C66 /* LaunchScreen.storyboard */; };
+		26D31C821F8DEC7E001C4C66 /* QZNewsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C731F8DEC7E001C4C66 /* QZNewsEntity.m */; };
+		26D31C831F8DEC7E001C4C66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C761F8DEC7E001C4C66 /* ViewController.m */; };
+		26D31C841F8DEC7E001C4C66 /* QZAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C7C1F8DEC7E001C4C66 /* QZAdManager.m */; };
+		26D31C851F8DEC7E001C4C66 /* QZNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C7E1F8DEC7E001C4C66 /* QZNetworkTools.m */; };
+		26D31C861F8DEC7E001C4C66 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C801F8DEC7E001C4C66 /* UIView+Frame.m */; };
+		26D31C8C1F8DEC8A001C4C66 /* QZMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C891F8DEC8A001C4C66 /* QZMainTabBarController.m */; };
+		26D31C8D1F8DEC8A001C4C66 /* QZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C8B1F8DEC8A001C4C66 /* QZTabBar.m */; };
+		26D31C921F8DF457001C4C66 /* QZNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C911F8DF457001C4C66 /* QZNavController.m */; };
+		26D31C951F8DF617001C4C66 /* QZBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C941F8DF617001C4C66 /* QZBarButton.m */; };
+		26D31C981F8E1290001C4C66 /* QZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D31C971F8E1290001C4C66 /* QZMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +31,31 @@
 		26D31C5B1F8DE861001C4C66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26D31C5D1F8DE861001C4C66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26D31C5E1F8DE861001C4C66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		26D31C601F8DE861001C4C66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		26D31C611F8DE861001C4C66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		26D31C641F8DE861001C4C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		26D31C661F8DE861001C4C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26D31C661F8DE861001C4C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		26D31C691F8DE861001C4C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26D31C6B1F8DE861001C4C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D31C721F8DEC7E001C4C66 /* QZNewsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZNewsEntity.h; sourceTree = "<group>"; };
+		26D31C731F8DEC7E001C4C66 /* QZNewsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZNewsEntity.m; sourceTree = "<group>"; };
+		26D31C751F8DEC7E001C4C66 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26D31C761F8DEC7E001C4C66 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26D31C7B1F8DEC7E001C4C66 /* QZAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAdManager.h; sourceTree = "<group>"; };
+		26D31C7C1F8DEC7E001C4C66 /* QZAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAdManager.m; sourceTree = "<group>"; };
+		26D31C7D1F8DEC7E001C4C66 /* QZNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZNetworkTools.h; sourceTree = "<group>"; };
+		26D31C7E1F8DEC7E001C4C66 /* QZNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZNetworkTools.m; sourceTree = "<group>"; };
+		26D31C7F1F8DEC7E001C4C66 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		26D31C801F8DEC7E001C4C66 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		26D31C881F8DEC8A001C4C66 /* QZMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZMainTabBarController.h; sourceTree = "<group>"; };
+		26D31C891F8DEC8A001C4C66 /* QZMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZMainTabBarController.m; sourceTree = "<group>"; };
+		26D31C8A1F8DEC8A001C4C66 /* QZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTabBar.h; sourceTree = "<group>"; };
+		26D31C8B1F8DEC8A001C4C66 /* QZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTabBar.m; sourceTree = "<group>"; };
+		26D31C8F1F8DED56001C4C66 /* NetEasyPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetEasyPrefix.pch; sourceTree = "<group>"; };
+		26D31C901F8DF457001C4C66 /* QZNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZNavController.h; sourceTree = "<group>"; };
+		26D31C911F8DF457001C4C66 /* QZNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZNavController.m; sourceTree = "<group>"; };
+		26D31C931F8DF617001C4C66 /* QZBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZBarButton.h; sourceTree = "<group>"; };
+		26D31C941F8DF617001C4C66 /* QZBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZBarButton.m; sourceTree = "<group>"; };
+		26D31C961F8E1290001C4C66 /* QZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZMainViewController.h; sourceTree = "<group>"; };
+		26D31C971F8E1290001C4C66 /* QZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZMainViewController.m; sourceTree = "<group>"; };
 		42E78ED4156DEFF54DAC2E3C /* libPods-QZWYNew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QZWYNew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF8C511820E98B56AE9DB07 /* Pods-QZWYNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZWYNew.release.xcconfig"; path = "Pods/Target Support Files/Pods-QZWYNew/Pods-QZWYNew.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,14 +93,18 @@
 		26D31C591F8DE861001C4C66 /* QZWYNew */ = {
 			isa = PBXGroup;
 			children = (
+				26D31C871F8DEC8A001C4C66 /* Main */,
+				26D31C711F8DEC7E001C4C66 /* News */,
+				26D31C741F8DEC7E001C4C66 /* Other */,
+				26D31C771F8DEC7E001C4C66 /* PhotoSet */,
+				26D31C8E1F8DEC8F001C4C66 /* Detail */,
+				26D31C781F8DEC7E001C4C66 /* Reply */,
+				26D31C791F8DEC7E001C4C66 /* Search */,
+				26D31C7A1F8DEC7E001C4C66 /* Tools */,
+				26D31C811F8DEC7E001C4C66 /* Weather */,
 				26D31C5D1F8DE861001C4C66 /* AppDelegate.h */,
 				26D31C5E1F8DE861001C4C66 /* AppDelegate.m */,
-				26D31C601F8DE861001C4C66 /* ViewController.h */,
-				26D31C611F8DE861001C4C66 /* ViewController.m */,
-				26D31C631F8DE861001C4C66 /* Main.storyboard */,
-				26D31C661F8DE861001C4C66 /* Assets.xcassets */,
-				26D31C681F8DE861001C4C66 /* LaunchScreen.storyboard */,
-				26D31C6B1F8DE861001C4C66 /* Info.plist */,
+				26D31C8F1F8DED56001C4C66 /* NetEasyPrefix.pch */,
 				26D31C5A1F8DE861001C4C66 /* Supporting Files */,
 			);
 			path = QZWYNew;
@@ -81,9 +113,96 @@
 		26D31C5A1F8DE861001C4C66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				26D31C6B1F8DE861001C4C66 /* Info.plist */,
 				26D31C5B1F8DE861001C4C66 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26D31C711F8DEC7E001C4C66 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				26D31C721F8DEC7E001C4C66 /* QZNewsEntity.h */,
+				26D31C731F8DEC7E001C4C66 /* QZNewsEntity.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		26D31C741F8DEC7E001C4C66 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				26D31C681F8DE861001C4C66 /* LaunchScreen.storyboard */,
+				26D31C661F8DE861001C4C66 /* Assets.xcassets */,
+				26D31C751F8DEC7E001C4C66 /* ViewController.h */,
+				26D31C761F8DEC7E001C4C66 /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		26D31C771F8DEC7E001C4C66 /* PhotoSet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhotoSet;
+			sourceTree = "<group>";
+		};
+		26D31C781F8DEC7E001C4C66 /* Reply */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reply;
+			sourceTree = "<group>";
+		};
+		26D31C791F8DEC7E001C4C66 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		26D31C7A1F8DEC7E001C4C66 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				26D31C7B1F8DEC7E001C4C66 /* QZAdManager.h */,
+				26D31C7C1F8DEC7E001C4C66 /* QZAdManager.m */,
+				26D31C7D1F8DEC7E001C4C66 /* QZNetworkTools.h */,
+				26D31C7E1F8DEC7E001C4C66 /* QZNetworkTools.m */,
+				26D31C7F1F8DEC7E001C4C66 /* UIView+Frame.h */,
+				26D31C801F8DEC7E001C4C66 /* UIView+Frame.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		26D31C811F8DEC7E001C4C66 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		26D31C871F8DEC8A001C4C66 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				26D31C631F8DE861001C4C66 /* Main.storyboard */,
+				26D31C881F8DEC8A001C4C66 /* QZMainTabBarController.h */,
+				26D31C891F8DEC8A001C4C66 /* QZMainTabBarController.m */,
+				26D31C961F8E1290001C4C66 /* QZMainViewController.h */,
+				26D31C971F8E1290001C4C66 /* QZMainViewController.m */,
+				26D31C901F8DF457001C4C66 /* QZNavController.h */,
+				26D31C911F8DF457001C4C66 /* QZNavController.m */,
+				26D31C931F8DF617001C4C66 /* QZBarButton.h */,
+				26D31C941F8DF617001C4C66 /* QZBarButton.m */,
+				26D31C8A1F8DEC8A001C4C66 /* QZTabBar.h */,
+				26D31C8B1F8DEC8A001C4C66 /* QZTabBar.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		26D31C8E1F8DEC8F001C4C66 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		6F930354C8AB877BC0BCD379 /* Frameworks */ = {
@@ -132,11 +251,13 @@
 		26D31C4F1F8DE861001C4C66 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QZ;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = faner;
 				TargetAttributes = {
 					26D31C561F8DE861001C4C66 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S4APB779M6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -228,8 +349,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D31C621F8DE861001C4C66 /* ViewController.m in Sources */,
+				26D31C951F8DF617001C4C66 /* QZBarButton.m in Sources */,
+				26D31C841F8DEC7E001C4C66 /* QZAdManager.m in Sources */,
+				26D31C8D1F8DEC8A001C4C66 /* QZTabBar.m in Sources */,
+				26D31C851F8DEC7E001C4C66 /* QZNetworkTools.m in Sources */,
+				26D31C981F8E1290001C4C66 /* QZMainViewController.m in Sources */,
 				26D31C5F1F8DE861001C4C66 /* AppDelegate.m in Sources */,
+				26D31C921F8DF457001C4C66 /* QZNavController.m in Sources */,
+				26D31C8C1F8DEC8A001C4C66 /* QZMainTabBarController.m in Sources */,
+				26D31C861F8DEC7E001C4C66 /* UIView+Frame.m in Sources */,
+				26D31C821F8DEC7E001C4C66 /* QZNewsEntity.m in Sources */,
+				26D31C831F8DEC7E001C4C66 /* ViewController.m in Sources */,
 				26D31C5C1F8DE861001C4C66 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +373,7 @@
 				26D31C641F8DE861001C4C66 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		26D31C681F8DE861001C4C66 /* LaunchScreen.storyboard */ = {
@@ -251,6 +382,7 @@
 				26D31C691F8DE861001C4C66 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -349,6 +481,9 @@
 			baseConfigurationReference = 129AC1E818F506EFD5BDE064 /* Pods-QZWYNew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S4APB779M6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QZWYNew/NetEasyPrefix.pch;
 				INFOPLIST_FILE = QZWYNew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -362,6 +497,9 @@
 			baseConfigurationReference = AAF8C511820E98B56AE9DB07 /* Pods-QZWYNew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S4APB779M6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QZWYNew/NetEasyPrefix.pch;
 				INFOPLIST_FILE = QZWYNew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -389,6 +527,7 @@
 				26D31C701F8DE861001C4C66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
