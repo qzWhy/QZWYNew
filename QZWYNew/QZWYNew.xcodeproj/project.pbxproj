@@ -27,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		129AC1E818F506EFD5BDE064 /* Pods-QZWYNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZWYNew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QZWYNew/Pods-QZWYNew.debug.xcconfig"; sourceTree = "<group>"; };
+		1BACA78F1F9653CE00C8345E /* QZWYNews.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = QZWYNews.podspec; path = /Users/fanqingzhong/Desktop/QZWYNews/QZWYNew/QZWYNews.podspec; sourceTree = "<absolute>"; };
 		26D31C571F8DE861001C4C66 /* QZWYNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZWYNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D31C5B1F8DE861001C4C66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26D31C5D1F8DE861001C4C66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		26D31C4E1F8DE861001C4C66 = {
 			isa = PBXGroup;
 			children = (
+				1BACA78F1F9653CE00C8345E /* QZWYNews.podspec */,
 				26D31C591F8DE861001C4C66 /* QZWYNew */,
 				26D31C581F8DE861001C4C66 /* Products */,
 				F82808E065C4780678E12D71 /* Pods */,
